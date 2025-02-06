@@ -1,0 +1,16 @@
+repository_type: pipeline
+
+nf_core_version: 3.2.0
+
+lint: {}
+
+template:
+  org: nf-core
+  name: riboseqcflow
+  description: A pipeline for quality control of ribosome profiling data originally
+    authored by Lorenzo Calviello
+  author: Svetlana Lebedeva
+  version: 1.0.0dev
+  force: true
+  outdir: .
+  is_nfcore: true
